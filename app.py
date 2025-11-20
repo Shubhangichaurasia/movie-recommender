@@ -24,10 +24,18 @@ def recommend (movie):
     return recommended_movies,recommended_movies_posters
 
 
-movies_dict = pickle.load(open(r'C:\Users\shubh\PycharmProjects\movies-recommender-system\movies_dict.pkl', 'rb'))
+#movies_dict = pickle.load(open(r'C:\Users\shubh\PycharmProjects\movies-recommender-system\movies_dict.pkl', 'rb'))
+import os
+import pickle
 
-movies = pd.DataFrame(movies_dict)
-similarity = pickle.load(open(r'C:\Users\shubh\PycharmProjects\movies-recommender-system\similarity.pkl', 'rb'))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+movies_dict = pickle.load(open(os.path.join(BASE_DIR, 'movies_dict.pkl'), 'rb'))
+movies = pickle.load(open(os.path.join(BASE_DIR, 'movies.pkl'), 'rb'))
+similarity = pickle.load(open(os.path.join(BASE_DIR, 'similarity.pkl'), 'rb'))
+
+#movies = pd.DataFrame(movies_dict)
+#similarity = pickle.load(open(r'C:\Users\shubh\PycharmProjects\movies-recommender-system\similarity.pkl', 'rb'))
 
 st.title('Movie Recommender System')
 
