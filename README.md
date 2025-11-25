@@ -1,4 +1,4 @@
- 🎬 Movie Recommender System
+ ##🎬 Movie Recommender System
 
 A content-based movie recommendation system built using machine learning and deployed using Streamlit.  
 This project helps users discover similar movies based on their selected preferences.
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 Run the Streamlit app:
 
-
+https://movie-recommender-4hletpq77aqlkuih8zxdmf.streamlit.app/
 ---
 
 ## 🛠 Technologies Used
