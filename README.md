@@ -1,4 +1,4 @@
- ##🎬 Movie Recommender System
+ 🎬 Movie Recommender System
 
 A content-based movie recommendation system built using machine learning and deployed using Streamlit.  
 This project helps users discover similar movies based on their selected preferences.
