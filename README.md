@@ -17,6 +17,8 @@ This project helps users discover similar movies based on their selected prefere
 
 ## 📂 Project Structure
 
+https://movie-recommender-4hletpq77aqlkuih8zxdmf.streamlit.app/
+
 ---
 
 
